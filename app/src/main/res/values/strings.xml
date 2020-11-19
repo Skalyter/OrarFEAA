@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Orar FEAA</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Parola</string>
+    <string name="about">Spune-ne\ncâte ceva\ndespre\ntine</string>
+    <string name="cd_header">Header image</string>
+    <string name="hint_name">Nume</string>
+    <string name="register">Înregistrare</string>
+    <string name="already_have_an_account">Ai deja un cont?\nConecteaza-te!</string>
+    <string name="phone">Telefon</string>
+    <string name="navigate_back">Navigate back</string>
+    <string name="forgot_password"><u>Ai uitat parola?</u></string>
+    <string name="login">Conectare</string>
+    <string name="hint_register"><u>Nu ai cont? Înregistrează-te acum!</u></string>
+    <string name="cd_register">Create account</string>
+    <string name="about_you">Spune-ne câte ceva despre tine</string>
+    <string name="hint_phone">Telefon</string>
+    <string name="text_register_btn">Înregistrare</string>
+    <string name="hint_already_have_an_account"><u>Ai deja un cont?</u></string>
+    <string name="cd_login">Login</string>
+    <string name="hint_last_name">Prenume</string>
+    <string name="hint_type_of_user">Sunt</string>
+    <string name="hint_faculty">Facultatea</string>
+    <string name="hint_specializare">Specializarea</string>
+    <string name="hint_nivel_studii">Nivelul de studii</string>
+    <string name="hint_anul">Anul de studiu</string>
+    <string name="hint_password_again">Reintrodu parola</string>
+    <string name="hint_department">Departamentul</string>
+    <string name="hint_titulatura">Titlul</string>
+    <string name="lorem">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_username">Tiberiu Gaspar</string>
+    <string name="nav_header_subtitle">310440501RSL171085</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add_an_event">Atingeți pentru a adăuga un eveniment</string>
+    <string name="add_code">Adaugă codul de prezență</string>
+    <string name="cancel">Renunță</string>
+
+    <string name="menu_orar">Orar</string>
+    <string name="menu_find_class">Caută o sală liberă</string>
+    <string name="menu_groups">Grupuri de discuții</string>
+    <string name="menu_professors">Contact profesori</string>
+    <string name="nav_header_logout"><u>Deconectare</u></string>
+    <string name="cauta">Cauta</string>
+    <string name="alege_tipul_de_sala">Alege tipul de sala</string>
+    <string name="alege_ora">Alege ora</string>
+    <string name="alege_data">Alege data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="grupa">Grupa</string>
+    <string name="login_matricol_hint">Matricol</string>
+    <string name="anunturi">Anunturi</string>
+    <string name="title_activity_adaugare_anunt">AdaugareAnuntActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_profesor_main">ProfesorMainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_adaugare_cursuri">Adaugare cursuri</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="curs">Curs</string>
+    <string name="frecventa">Frecventa</string>
+    <string name="saptamanal">Saptamanal</string>
+    <string name="saptamani_impare">Saptamani impare</string>
+    <string name="saptamani_pare">Saptamani pare</string>
+    <string name="ziua_saptamanii">Ziua saptamanii</string>
+    <string name="seminar">Seminar</string>
+    <string name="grupe">Grupe</string>
+    <string name="generare_cursuri">Generare cursuri</string>
+    <string name="adauga_curs">Adauga curs</string>
+    <string name="titlu">Titlu</string>
+    <string name="detalii">Detalii</string>
+    <string name="title_activity_detalii_anunt">DetaliiAnuntActivity</string>
+
+    <string name="user_student">student</string>
+    <string name="user_profesor">profesor</string>
+
+    <string name="saved_user_type">saved_user_type</string>
+    <string name="saved_user_name">nume_utilizator</string>
+    <string name="saved_user_matricol">matricol_utilizator</string>
+    <string name="saved_adapter">adapter_prestabilit</string>
+
+    <string name="data_primului_curs">Data primului curs</string>
+    <string name="anul">Anul</string>
+    <string name="sala">Sala</string>
+    <string name="vizualizare_saptamanal">Vizualizare orar saptamanal</string>
+    <string name="vizualizare_zilnic">Vizualizare orar zilnic</string>
+    <string name="title_activity_detalii_curs">DetaliiCursActivity</string>
+    <string name="ora">Ora</string>
+    <string name="despre_curs">Despre curs</string>
+    <string name="salvare">Salvare</string>
+    <string name="generare_cod_prezenta">generare cod prezenta</string>
+    <string name="cod_prezenta">Cod prezenta</string>
+    <string name="participanti">Participanti</string>
+    <string name="adauga_student">Adauga student</string>
+    <string name="raport_prezenta">Raport prezenta</string>
+    <string name="title_activity_raport_prezente">Raport Prezente</string>
+    <string name="numar_prezente">Numar prezente:</string>
+    <string name="total_prezente">Total prezente:</string>
+
+    <string name="sala_seminar">Sala seminar</string>
+    <string name="amfiteatru">Amfiteatru</string>
+    <string name="adauga_cod_prezenta">Adauga cod prezenta</string>
+    <string name="title_activity_editare_curs">Editare Curs</string>
+    <string name="data">Data</string>
+    <string name="title_activity_adaugare_grup_discutii">Adaugare Grup Discutii</string>
+    <string name="creeaza_grupul">Creeaza grupul</string>
+    <string name="title_activity_conversatie_grup">Conversatie</string>
+    <string name="nume_grup">Nume grup</string>
+    <string name="inteles">Am inteles</string>
+</resources>

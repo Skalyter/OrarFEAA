@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_grey"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_nivel_studii"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_nivel_studii"
+            android:layout_width="match_parent"
+            android:entries="@array/lista_nivel_studii"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_specializare"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_specializare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anul"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_an_studiu"
+            android:entries="@array/ani_studii_licenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disciplina"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_disciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ora"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioGroup
+            android:id="@+id/radio_ora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_curs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/curs" />
+
+            <RadioButton
+                android:id="@+id/radio_seminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminar" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sala"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_sala"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/frecventa"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioGroup
+            android:id="@+id/radio_frecventa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_curs_saptamanal"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saptamanal" />
+
+            <RadioButton
+                android:id="@+id/radio_curs_par"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saptamani_pare" />
+
+            <RadioButton
+                android:id="@+id/radio_curs_impar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saptamani_impare" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/ziua_saptamanii"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_ziua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/zile_saptamana" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="Interval orar"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/spinner_ora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/intervale_orare" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/data_primului_curs"
+            android:textColor="@color/colorPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+        <CalendarView
+            android:id="@+id/calendar_primul_curs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:firstDayOfWeek="2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@color/color_grey_delimitare" />
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/grupe"
+            android:textColor="@color/colorPrimary" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_grupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_check_grupa" />
+
+        <Button
+            android:id="@+id/btn_adauga_curs"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="130dp"
+            android:text="@string/adauga_curs" />
+    </LinearLayout>
+</ScrollView>

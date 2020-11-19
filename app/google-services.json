@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394207803704",
+    "firebase_url": "https://orarfeaa-b6fb5.firebaseio.com",
+    "project_id": "orarfeaa-b6fb5",
+    "storage_bucket": "orarfeaa-b6fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394207803704:android:94cdf5b6232700dfb969cd",
+        "android_client_info": {
+          "package_name": "com.tiberiugaspar.oraruaic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394207803704-67gsd08gqgedfr13cab8d7jtpe7abr5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiberiugaspar.oraruaic",
+            "certificate_hash": "89cd935113b3687a5d9e2e8168926033b6364583"
+          }
+        },
+        {
+          "client_id": "394207803704-f9ds96a4pdvh0s6mvb8anj97ho4crtsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxlRQPWww1vG1H3JUPcUjHKXl4HK0O0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394207803704-f9ds96a4pdvh0s6mvb8anj97ho4crtsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

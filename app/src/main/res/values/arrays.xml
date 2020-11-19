@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_facultati">
+        <item>Economie și Administrarea Afacerilor</item>
+    </string-array>
+
+    <!--        <item>Biologie</item>-->
+    <!--        <item>Chimie</item>-->
+    <!--        <item>Drept</item>-->
+    <!--        <item>Educație Fizică și Sport</item>-->
+    <!--        <item>Filosofie și Științe Social-Politice</item>-->
+    <!--        <item>Fizică</item>-->
+    <!--        <item>Geografie și Geologie</item>-->
+    <!--        <item>Informatică</item>-->
+    <!--        <item>Istorie</item>-->
+    <!--        <item>Litere</item>-->
+    <!--        <item>Matematică</item>-->
+    <!--        <item>Psihologie și Științe ale Educației</item>-->
+    <!--        <item>Teologie Ortodoxă</item>-->
+    <!--        <item>Teologie Romano-Catolică</item>-->
+    <string-array name="tip_utilizator">
+        <item>Student</item>
+        <item>Personal Academic</item>
+    </string-array>
+    <string-array name="lista_titulaturi">
+        <item>Asist. Univ.</item>
+        <item>Lect. Univ.</item>
+        <item>Conf. Univ.</item>
+        <item>Prof. Univ.</item>
+    </string-array>
+
+    <string-array name="lista_nivel_studii">
+        <item>Licență</item>
+        <item>Master</item>
+        <item>Doctorat</item>
+    </string-array>
+
+    <string-array name="lista_tip_sali">
+        <item>@string/sala_seminar</item>
+        <item>@string/amfiteatru</item>
+    </string-array>
+
+    <string-array name="lista_specializari_licenta">
+        <item>Administrație Publică</item>
+        <item>Business Administration</item>
+        <item>Contabilitate și Informatică de Gestiune</item>
+        <item>Economia comerţului, turismului şi serviciilor</item>
+        <item>Economics and Finance</item>
+        <item>Economie şi afaceri internaţionale</item>
+        <item>Finanțe Bănci</item>
+        <item>Informatică Economică</item>
+        <item>Management</item>
+        <item>Marketing</item>
+        <item>Statistică și Previziuni Economice</item>
+    </string-array>
+
+    <string-array name="lista_specializari_master">
+        <item>Achiziţii - distribuţie - logistică</item>
+        <item>Administrarea afacerilor</item>
+        <item>Administraţie publică</item>
+        <item>AISI</item>
+        <item>Analiză şi strategie de marketing</item>
+        <item>Bănci şi pieţe financiare</item>
+        <item>Contabilitate, Diagnostic, Evaluare</item>
+        <item>Contabilitate, expertiză şi audit</item>
+        <item>Contabilitatea afacerilor</item>
+        <item>Data Mining</item>
+        <item>Economie și Afaceri Internaționale</item>
+        <item>Economie şi dreptul afacerilor</item>
+        <item>Finance and Risk Management</item>
+        <item>Finanţe - asigurări</item>
+        <item>Management turistic şi hotelier</item>
+        <item>Managementul organizaţiilor</item>
+        <item>Managementul proiectelor</item>
+        <item>Marketing şi comunicare în afaceri</item>
+        <item>MDRU</item>
+        <item>Management Resurse Umane</item>
+        <item>Negocieri - relaţii publice</item>
+        <item>SAAS</item>
+        <item>SDBIS</item>
+        <item>SHRME</item>
+        <item>SIA</item>
+    </string-array>
+
+    <string-array name="ani_studii_licenta">
+        <item>Anul 1</item>
+        <item>Anul 2</item>
+        <item>Anul 3</item>
+    </string-array>
+
+    <string-array name="ani_studii_master">
+        <item>Anul 1</item>
+        <item>Anul 2</item>
+    </string-array>
+
+    <string-array name="zile_saptamana">
+        <item>Luni</item>
+        <item>Marti</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sambata</item>
+        <item>Duminica</item>
+    </string-array>
+
+    <string-array name="intervale_orare">
+        <item>08:00–10:00</item>
+        <item>10:00–12:00</item>
+        <item>12:00–14:00</item>
+        <item>14:00–16:00</item>
+        <item>16:00–18:00</item>
+        <item>18:00–20:00</item>
+    </string-array>
+
+    <string-array name="discipline_info_ec_anul_1">
+        <item>Bazele contabilitati</item>
+        <item>Dreptul Afacerilor</item>
+        <item>Limba Engleza 1 pentru afaceri</item>
+        <item>Matematici Aplicate in Economie</item>
+        <item>Microeconomie</item>
+        <item>Tehnologii Informationale pentru Afaceri</item>
+        <item>Bazele Statisticii</item>
+        <item>Contabilitate Financiara</item>
+        <item>Instrumente Software pentru Afaceri</item>
+        <item>Limba Engleza 2 pentru afaceri</item>
+        <item>Macroeconomie</item>
+        <item>Management</item>
+    </string-array>
+    <string-array name="discipline_info_ec_anul_2">
+        <item>Econometrie</item>
+        <item>Finante</item>
+        <item>Limba Engleza 3 pentru afaceri</item>
+        <item>Marketing</item>
+        <item>Programare 1</item>
+        <item>Sisteme Informationale de Birou</item>
+        <item>Algoritmi si Logica Programarii</item>
+        <item>Baze de Date I</item>
+        <item>Cercetari Operationale</item>
+        <item>Limba Engleza 4 pentru afaceri</item>
+        <item>Moneda si Credit</item>
+        <item>Practica de specialitate</item>
+    </string-array>
+    <string-array name="discipline_info_ec_anul_3">
+        <item>Analiza Sistemelor Informationale</item>
+        <item>Comert Electronic</item>
+        <item>Gestiunea Financiar Contabila a intreprinderii</item>
+        <item>Groupware</item>
+        <item>Programare II</item>
+        <item>Retele de Calculatoare I</item>
+        <item>Dezvoltarea Site-urilor Web</item>
+        <item>Enterprise Resource Planning</item>
+        <item>eMarketing</item>
+        <item>Proiectarea Sistemelor Informationale</item>
+        <item>Proiecte Economice in Informatica</item>
+        <item>Securitatea Sistemelor Informationale</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tiberiugaspar.oraruaic.ui.orar.OrarFragment"
+        android:label="@string/menu_orar"
+        tools:layout="@layout/fragment_orar"/>
+
+    <fragment
+        android:id="@+id/nav_anunturi"
+        android:name="com.tiberiugaspar.oraruaic.ui.anunturi.AnunturiFragment"
+        android:label="@string/anunturi"
+        tools:layout="@layout/fragment_anunturi"/>
+
+    <fragment
+        android:id="@+id/nav_search_class"
+        android:name="com.tiberiugaspar.oraruaic.ui.cauta_sala.CautareSalaFragment"
+        android:label="@string/menu_find_class"
+        tools:layout="@layout/fragment_cauta_sala"/>
+
+    <fragment
+        android:id="@+id/nav_chat_groups"
+        android:name="com.tiberiugaspar.oraruaic.ui.grupuri_discutii.GrupuriDiscutiiFragment"
+        android:label="@string/menu_groups"
+        tools:layout="@layout/fragment_grupuri"/>
+
+    <fragment
+        android:id="@+id/nav_student_info_profesori"
+        android:name="com.tiberiugaspar.oraruaic.ui.contact_profesori.ContactProfesoriFragment"
+        android:label="@string/menu_professors"
+        tools:layout="@layout/fragment_professors"/>
+
+    <fragment
+        android:id="@+id/nav_profesor_generare_cursuri"
+        android:name="com.tiberiugaspar.oraruaic.ui.generare_cursuri.GenerareCursuriFragment"
+        android:label="@string/generare_cursuri"
+        tools:layout="@layout/fragment_generare_cursuri"/>
+
+</navigation>

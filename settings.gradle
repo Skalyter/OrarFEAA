@@ -1,0 +1,2 @@
+rootProject.name='Orar UAIC'
+include ':app'

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/item_imagine_student"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/item_nume_student"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="0.5"
+        android:padding="10dp"
+        tools:text="Cutarescu Vasile" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:text="@string/numar_prezente"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:id="@+id/item_numar_prezente"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0.1"
+        android:textAlignment="viewEnd"
+        tools:text="14" />
+
+</LinearLayout>

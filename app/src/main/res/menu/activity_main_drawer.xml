@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/student_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="@string/menu_orar" />
+        <item
+            android:id="@+id/nav_anunturi"
+            android:icon="@drawable/ic_nav_anunturi"
+            android:title="@string/anunturi" />
+        <item
+            android:id="@+id/nav_search_class"
+            android:icon="@drawable/ic_nav_search"
+            android:title="@string/menu_find_class" />
+        <item
+            android:id="@+id/nav_chat_groups"
+            android:icon="@drawable/ic_nav_groups"
+            android:title="@string/menu_groups" />
+        <item
+            android:id="@+id/nav_student_info_profesori"
+            android:icon="@drawable/ic_nav_professors"
+            android:title="@string/menu_professors" />
+        <item
+            android:id="@+id/nav_profesor_generare_cursuri"
+            android:icon="@drawable/ic_nav_adaugare_cursuri"
+            android:title="@string/menu_adaugare_cursuri" />
+    </group>
+</menu>
